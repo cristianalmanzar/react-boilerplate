@@ -3,7 +3,7 @@ body {
 }
 
 .page {
-    animation: .7s ease-in-out fadeIn;
+    /* animation: .3s ease-in-out fadeIn; */
     /* animation: fadeIn 700ms ease-in-out 1s both; */
 }
 
