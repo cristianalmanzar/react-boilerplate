@@ -1,10 +1,27 @@
 body {
-    background-color: #f7f7f9;
+    /* background-color: #f7f7f9; */
 }
 
 .page {
-    /* animation: .3s ease-in-out fadeIn; */
+    /* animation: .2s ease-in fadeIn; */
     /* animation: fadeIn 700ms ease-in-out 1s both; */
+}
+
+.login-container {
+   
+    width: 50%;
+}
+
+.img-center {
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+.login-form {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
 }
 
 /* Animations */

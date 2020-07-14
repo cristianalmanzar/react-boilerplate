@@ -8,8 +8,9 @@ import {
 
 import { NavBar } from './components/NavBar/NavBar';
 import { About } from './pages/About';
-import { Login } from './pages/Login'
 import { Home } from './pages/Home'
+import { Login } from './pages/Login'
+import { Register } from './pages/Register'
 
 export const AppRouter = () => {
 
@@ -24,6 +25,7 @@ export const AppRouter = () => {
                         <Route exact path="/about" component={About}  />
                         <Route exact path="/login" component={Login}  />
                         <Route exact path="/" component={Home}  />
+                        <Route exact path="/register" component={Register}  />
                         
                         <Redirect to="/"/>
                     </Switch>
